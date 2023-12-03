@@ -54,9 +54,3 @@ class Solution:
                             combinations.append(letter1 + letter2 + letter3 + letter4)
 
         return combinations
-    
-s = Solution()
-print(s.letterCombinations("23"))
-print(s.letterCombinations("2"))
-print(s.letterCombinations(""))
-print(s.letterCombinations("5678"))
