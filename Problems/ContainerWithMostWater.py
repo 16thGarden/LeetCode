@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/container-with-most-water/
 
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
+    def maxArea(self, height):
         maxArea = 0
         left = 0
         right = len(height) - 1
