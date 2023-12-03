@@ -68,13 +68,3 @@ class Solution:
             place += 1
         
         return roman
-
-s = Solution()
-print(s.intToRoman(3))
-print(s.intToRoman(58))
-print(s.intToRoman(1994))
-print(s.intToRoman(10))
-print(s.intToRoman(50))
-print(s.intToRoman(100))
-print(s.intToRoman(500))
-print(s.intToRoman(1000))
